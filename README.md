@@ -5,7 +5,9 @@ Using this simple class, you can define a sequence of activities in your Manifes
 
 ## How to use it
 Simply include a tag like this:
-    <meta-data android:name="NextActivity" android:value=".SecondActivity"/>
+```xml
+<meta-data android:name="NextActivity" android:value=".SecondActivity"/>
+```
 in your activity in your Manifest.
 
 Add NextActivity.java to your project and adjust the naespace.
